@@ -1,5 +1,8 @@
+import 'dart:io';
+
 int calculate() {
-  int a = 6;
-  int b = 8;
+  int a = int.parse(stdin.readLineSync()!);
+  int b = int.parse(stdin.readLineSync()!);
+
   return a * b;
 }
